@@ -1,13 +1,40 @@
-.link {
-    float:right;
+.link{
+    position: relative;
+    top: 10px;
+    margin-top: -60px;
+    float: right;
     margin-bottom: 45px;
 }
 
 .googleimg{
-    display: inline-block;
-    margin-left: 38%;
-    margin-right: 35%;
-    width: 60%;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    max-width: 100%;
+    word-spacing: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(12%, 50%);
+}
+
+h1 span.G1{
+    color: rgb(0, 162, 255);
+}
+h1 span.G2{
+    color: rgb(240, 3, 3);
+}
+h1 span.G3{
+    color: rgb(255, 153, 0);
+}
+h1 span.G4{
+    color: rgb(0, 162, 255);
+}
+h1 span.G5{
+    color: rgb(2, 170, 30);
+}
+h1 span.G6{
+    color: rgb(240, 3, 3);
 }
 
 .index form input{
@@ -17,27 +44,41 @@
     width: 40%;
     padding: 15px;
     font-size: 15px;
-    margin: 0;
-    position: absolute;
+    margin-top: 75px;
+    position: relative;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 .index form button{
+    display:flex;
     border-radius: 20px;
     border: none;
     padding: 10px;
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 45%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#luckybtn {
+    display:flex;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 55%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 /* css on advanced search */
 #Advtitle{
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color:rgb(228, 48, 24);
     margin-top: 60px;
@@ -66,18 +107,6 @@
     font-size: 12px;
     font-weight: bold;
     color: white;
-}
-
-#luckybtn {
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-    margin: 0;
-    position: absolute;
-    top: 60%;
-    left: 55%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 .index #imagesrc{
